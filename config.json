@@ -1,0 +1,5 @@
+{
+    "channel" : "TWITCH_CHANNEL_NAME_HERE",
+    "username" : "BOT_ACCOUNT_NAME_HERE",
+    "password" : "TWITCH_CHAT_PASSWORD_HERE"
+}
