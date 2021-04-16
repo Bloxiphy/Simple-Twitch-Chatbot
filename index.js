@@ -14,6 +14,7 @@ const options = {
     channels: [channel]
 };
 
+// CONNECT TO TWITCH
 const client = new tmi.Client(options);
 client.connect().catch(console.error);
 
@@ -34,6 +35,10 @@ client.on('message', (channel, user, message, self) => {
 
     if(message == '!discord') {
         client.say(channel, `${user.usernamme}, join the Discord here: https://discord.gg/tmhxwernES`);
+    }
+
+    if(message == '!credits') {
+        client.say(channel, `${username} was made by Bloxiphy#1337!`);
     }
 
     if(message.includes("awesome")) {
