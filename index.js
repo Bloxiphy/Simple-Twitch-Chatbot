@@ -1,5 +1,5 @@
 const tmi = require('tmi.js'),
-    { channel, username, password } = require('./settings.json');
+    { channel, username, password } = require('./config.json');
 
 const options = {
     options: { debug: true },
@@ -28,20 +28,16 @@ client.on('message', (channel, user, message, self) => {
         client.say(channel, `@${user.username}, hello!`);
     }
 
-    if(message == '!roll') {
+    if(message == '!dice') {
         client.say(channel, `@${user.username} rolled a ${Math.floor(Math.random() * 6) + 1}!`);
     }
 
-    if(message == '!mention') {
-        client.say(channel, `@${channel}`);
+    if(message == '!discord') {
+        client.say(channel, `${user.usernamme}, join the Discord here: https://discord.gg/tmhxwernES`);
     }
 
     if(message.includes("awesome")) {
-        client.say(channel, `If you enjoy @Cursed_bs' content, make sure to follow! :)`);
-    }
-
-    if(message == '!discord') {
-        client.say(channel, `${user.usernamme}, ask nightbot lol, i don't have perms`);
+        client.say(channel, `If you enjoyed the content, make sure you follow! <3`);
     }
 
 });
