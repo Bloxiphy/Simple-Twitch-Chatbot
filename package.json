@@ -1,12 +1,12 @@
 {
-  "name": "twitchchatbot",
+  "name": "BloxiB0T",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Twitch chatbot that uses tmi.js to interact with Twitch chat!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Bloxiphy",
   "license": "ISC",
   "dependencies": {
     "tmi.js": "^1.8.2"
