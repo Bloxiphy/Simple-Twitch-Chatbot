@@ -6,7 +6,7 @@
 > `username` = the username of the bot, example: `"username" = "BloxiB0T"`
 -------------------
 > `password` = the oauth chat token that the bot requires to chat using tmi, example: `"password" = "oauth:m4pt2q7vr3hk6zpb08hyc359la8x0". 
-> to get this password, go to [this link](https://twitchapps.com/tmi/) and get your token from there. make sure you log into your bot's account and not anything else.
+**to get this password, go to [this link](https://twitchapps.com/tmi/) and get your token from there. make sure you log into your bot's account and not anything else.**
 
 
 make sure to credit me ;D
