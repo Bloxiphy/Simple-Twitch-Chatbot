@@ -4,7 +4,9 @@
 > A simple Twitch chatbot that uses [tmi.js](https://npmjs.org/package/tmi.js) to interact with Twitch chat!
 ----------------
 # Clone
-```git clone https://github.com/Bloxiphy/Simple-Twitch-Chatbot.git```
+```bash
+git clone https://github.com/Bloxiphy/Simple-Twitch-Chatbot.git
+```
 ----------------
 # Setup
 - Install [node.js](https://nodejs.org/en/download/), preferably the latest version.
